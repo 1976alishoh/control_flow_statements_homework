@@ -16,9 +16,9 @@ def main(a):
     if 9 < a < 100 and a % 2 == 0 and -100 < a < -9:
         return "two-digit even number"
     if 99 < a < 1000 and a % 2 == 1 and -1000 < a < -99:
-        return  "two-digit odd number"
+        return  "three-digit odd number"
     if 99 < a < 1000 and a % 2 == 0 and -1000 < a < -99:
-        return "two-digit even number"
+        return "three-digit even number"
 print(main(57))
 print(main(-242))
     
