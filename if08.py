@@ -20,6 +20,6 @@ def main(a):
     if 99 < a < 1000 and a % 2 == 0 :
         return "two-digit even number"
 print(main(57))
-print(main(-242))
+print(main(242))
     
     
