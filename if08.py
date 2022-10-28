@@ -11,15 +11,15 @@ def main(a):
     Returns:
         string: the message to print
     """
-    if 9 < a < 100 and a % 2 == 1 :
+    if 9 < a < 100 and a % 2 == 1 and -100 < a < -9:
         return  "two-digit odd number"
-    if 9 < a < 100 and a % 2 == 0 :
+    if 9 < a < 100 and a % 2 == 0 and -100 < a < -9:
         return "two-digit even number"
-    if 99 < a < 1000 and a % 2 == 1 :
+    if 99 < a < 1000 and a % 2 == 1 and -1000 < a < -99:
         return  "two-digit odd number"
-    if 99 < a < 1000 and a % 2 == 0 :
+    if 99 < a < 1000 and a % 2 == 0 and -1000 < a < -99:
         return "two-digit even number"
 print(main(57))
-print(main(242))
+print(main(-242))
     
     
