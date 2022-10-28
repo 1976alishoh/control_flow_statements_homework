@@ -9,8 +9,10 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    b = a%2 *10 +a//10
-    if a > b and a==b:
+    b= a//10 + a%10*10
+    if a > b :
+        return True
+    if a == b:
         return True
     else:
         return False
