@@ -21,7 +21,7 @@ def main(temp):
         return " Cold"
     if 20 < temp < 31:
         return "Normal"
-    if 30 < temp < 40:
+    if 30 < temp < 41:
         return "Hot"
     if temp>40:
         return " Very Hot"
